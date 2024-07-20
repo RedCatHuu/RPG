@@ -23,8 +23,8 @@ public abstract class Human extends Living {
 		this.hp -= 1;
 
 		// コンソールにステータスを表示
-		System.out.println("「" + this.getName() + "」が「" + this.getWeapon() + "」で攻撃! 「" + target.getName() + "」に" + damage + "のダメージを与えた。");
-		System.out.println("しかし自分の攻撃力も1減少した。");
+		System.out.println("\n「" + this.getName() + "」が「" + this.getWeapon() + "」で攻撃! 「" + target.getName() + "」に" + damage + "のダメージを与えた。");
+		System.out.println("しかし自分の攻撃力も1減少した。\n");
 
 	}
 }
