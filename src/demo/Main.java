@@ -133,7 +133,6 @@ public class Main {
 
 	// 引数でもらった人間グループリストとモンスターグループリストのそれぞれの情報一覧を表示するメソッド
 	public static void showGroupInfos(List<Human> humans, List<Monster> monsters) {
-
 		System.out.println("\n## === グループ情報 === ##");
 		System.out.printf("# [人間グループ]: %d人\n", humans.size());
 		for (Human human : humans) {
