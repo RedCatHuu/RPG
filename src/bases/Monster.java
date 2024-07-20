@@ -14,7 +14,7 @@ public abstract class Monster extends Living {
 	@Override
 	public void attack(Living target) {
 		// 1から10までのサイコロを振り、自分の攻撃力とかけ合わせた値を相手に与えるダメージとする
-		int damage = Dice.get(1,  10) * offensive;
+		int damage = Dice.get(1,  10) * this.getOffensive();
 		
 		// 相手のHPをダメージ値だけ減らす
 		target.setHp(target.getHp() - damage);
